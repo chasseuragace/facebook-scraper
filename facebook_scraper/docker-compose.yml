@@ -1,0 +1,9 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  web:
+    build: ./server
+    ports:
+      - "4500:4500"
